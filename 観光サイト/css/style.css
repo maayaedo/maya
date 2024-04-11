@@ -75,13 +75,14 @@ header img {
   padding:5px 15px 5px;
 }
 header h2{
-  margin-top:17px;
+  font-family: serif;
+  margin-top:13px;
   margin-left:0;
 }
 @media screen and (max-width: 680px) {
 header h2{
   width:100%;
-  font-size: 20px;
+  font-size: 22px;
 }
 }
 
@@ -305,10 +306,10 @@ opacity: 0;
 .js-text-anime{
   position: absolute;
   z-index: 1000;
-  top:3%;
-  left:5%;
+  top:40%;
+  left:37%;
   font-family:serif;
-  font-size:300%;
+  font-size:270%;
   color: #f1f1f1;
   text-shadow: rgb(27, 53, 28) 3px 0 20px;
 }
@@ -320,12 +321,14 @@ opacity: 0;
 .js-text-anime02{
   position: absolute;
   z-index: 1000;
-  top:3%;
-  left:5%;
+  top:30%;
+  left:34%;
   font-family:serif;
-  font-size:220%;
+  font-size:200%;
   color: #f1f1f1;
   text-shadow: rgb(27, 53, 28) 3px 0 20px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
 }
 @media screen and (min-width: 679px) {
   .js-text-anime02{
@@ -343,6 +346,14 @@ opacity: 0;
   opacity: 0;
   transition: 3.5s;
 }
+.top-page-slide-logo{
+  position: absolute;
+  z-index: 999;
+  top:3%;
+  left:3%; 
+}
+
+
 
 
 hr{
@@ -352,8 +363,20 @@ margin: 0 auto;
 }
 
 main article{
-  margin-top: 1em;
+  margin: 1em auto;
+  background: url("../images/背景\(波\).png");
+  background-size: 100%;
+  background-position: 0 92%;
+  background-color:rgba(255,255,255,0.5);
+  background-blend-mode:lighten;
+  background-repeat: no-repeat;
 }
+@media screen and (max-width: 680px) {
+main article{
+  background-position: 0 50%;
+}
+}
+
 
 .site-top-introduce-contents{
 background: url("../images/背景03.png");
@@ -368,18 +391,19 @@ background-position:100% 0;
 }
 .site-top-introduce-text{
   font-size: 24px;
-  text-align: center;
+  text-align: left;
   line-height: 1.5em;
   letter-spacing: 2px;
-  margin:3em auto 1em;
-  padding: 100px 0 0;
+  margin:10% 20% 10%;
+  padding: 100px auto 0;
 }
 @media screen and (max-width: 680px) {
 .site-top-introduce-text{
   font-size: 18px;
   letter-spacing: 1px;
   margin:2em auto 1em;
-  padding: 40px 0 0;
+  padding: 20px 0 0;
+  margin:5% 5% 10%;
 }
 }
   
@@ -389,6 +413,12 @@ background-position:100% 0;
 .site-top-introduce-slider img {
   width:100%;/*スライダー内の画像を横幅100%に*/
   height:200px;
+}
+@media screen and (max-width: 680px) {
+.site-top-introduce-slider img {
+  width:100%;/*スライダー内の画像を横幅100%に*/
+  height:150px;
+}
 }
 
 /*slickのJSで書かれるタグ内、スライド左右の余白調整*/
@@ -401,7 +431,19 @@ padding: 0;
 list-style: none;
 }
 
-
+.site-top-introduce-main{
+  display: flex;
+  margin: 5% 5% 0 5%;
+}
+@media screen and (max-width: 680px) {
+.site-top-introduce-main{
+  display: block;
+}
+}
+.site-top-introduce-main img{
+  padding: 20px;
+  margin:0 0 auto;
+}
 main article h1{
     text-align: center;
     margin: 6em 0 0;
@@ -423,15 +465,6 @@ main article h1{
     margin-bottom: 2em;
 }
 }
-
-article img{
-    padding: 100px 0 50px;
-}
-@media screen and (max-width: 680px) {
-article img{
-  padding: 20px 0 30px;
-}
-}
 .article-bottom-hr{
   margin-top: 13%;
   width: 70%;
@@ -442,19 +475,12 @@ article img{
 
 .text-box-top p{
 text-align: left;
-line-height: 2.5em;
+line-height: 2em;
 letter-spacing: 2px;
 font-family:sunserif;
-font-size:20px;
-color: #2d2641;
-padding:0 20px;
-padding:0 15%;
-background: url("../images/魚アイコン\(単色02\).png"),url("../images/魚アイコン(単色).png"),url("../images/魚アイコン\(単色02\).png");
-background-repeat: no-repeat;
-background-size:190px 90px,40px 20px,180px 80px;
-background-position:5% 70%,90% 10%,85% 80%;
-background-color:rgba(255,255,255,0.5);
-background-blend-mode:lighten;
+font-size:18px;
+padding:0 5%;
+margin-top: 0;
 }
 @media screen and (max-width: 680px) {
   .text-box-top p{
@@ -470,9 +496,9 @@ background-blend-mode:lighten;
   background-color: #3540d8;
   border: #3540d8;
   color: white;
-  padding: 10px 50px;
-  left: 60%;
-  margin: 5px auto;
+  padding: 10px 80px;
+  width: 60%;
+  margin: 10% 0 30% 20%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -481,10 +507,9 @@ background-blend-mode:lighten;
 }
 @media screen and (max-width: 680px) {
   .gallery {
-    left: 0;
     width:60%; 
-    padding: 6px 60px;
-    margin: 1em 20%;
+    padding: 6px 30px;
+    margin: 5% 20% 5%;
   }
 }
 .gallery:hover {
@@ -495,12 +520,12 @@ transition: 0.4s;
 
 main section h1{
   text-align: center;
-  margin-top: 7em;
+  margin-top: 3em;
 }
 @media screen and (max-width: 680px) {
 main section h1{
   font-size: 26px;
-  margin: 10em 0 1em;
+  margin: 6em 0 1em;
 }
 }
  .introduce hr{
@@ -540,10 +565,12 @@ main section h1{
   margin: 0 5%;
 }
 }
+.container img{
+  border-radius: 50%;
+}
 
 .container a:hover{
-  box-shadow: 0 0 20px rgba(132, 137, 177, 0.9);
-  opacity: 80%;
+  opacity: 60%;
   transition: 0.7s;
 }
 .container h2{
@@ -557,29 +584,25 @@ section p{
   text-align: left;
 line-height: 1.5em;
 font-family:sunserif;
-font-size:20px;
+font-size:16px;
 margin-top: 2em;
 color: #1d1d1d;
 }
 /* アクセス */
 
+.access{
+  background: url(../images/hr02.png);
+  background-repeat: no-repeat;
+  background-size: 80% 6%;
+  background-position: 60% 1%;
+}
 .access h1{
-  margin-top: 4em;
+  margin: 4em auto 4em;
 }
 @media screen and (max-width: 680px) {
 .access h1{
   font-size: 26px;
 }
-}
-.access hr{
-  width: 70%;
-  margin-bottom: 100px;
-}
-@media screen and (max-width: 680px) {
-  .access hr{
-    width: 85%;
-    margin-bottom: 3em;
-  }
 }
 
 .access-wrapp{
@@ -593,8 +616,11 @@ color: #1d1d1d;
     margin-left: 5%;
 }
 }
+.access-wrapp-for-display{
+  display: block;
+}
 .access-wrapp img{
-  margin: 0 30px;
+  margin: 0 50px;
 }
 @media screen and (max-width: 680px) {
 .access-wrapp img{
@@ -602,48 +628,58 @@ color: #1d1d1d;
 }
 }
 
+.access-wrapp p{
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 2em;
+}
 @media screen and (max-width: 680px) {
   .access-wrapp p{
     font-size: 18px;
     margin: 15% 10% 15% 15%;
     letter-spacing: 2px;
-    line-height: 1.5em;
+    line-height: 2em;
 }
 }
 .text-box-bottom{
-    margin: 5% 15%;
+    margin: 5% 10%;
 }
 
 button {
-    position: absolute;
     background-color: #3540d8;
     border: #3540d8;
     color: white;
-    padding: 10px 35px;
+    padding: 10px 60px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
-    margin-top: 50px;
-    margin-left: 55%;
     cursor: pointer;
 }
+
 button:hover {
   box-shadow: 0 0 20px rgba(132, 137, 177, 0.9);
   transition: 0.5s;
 }
 
+.access_button{
+  margin: 14% 0 0 2%;
+}
+
 @media screen and (max-width: 680px) {
   .access_button{
     width: 60%;
-    margin: 0 20%;
-    padding: 5px 30px;
+    margin: 0 15%;
+    padding: 6px 30px;
 }
 }
 
 .bg_test_bottom {
   background-image: "images/背景03.png";
   }
+
+/* --- ここからaside --- */
 
 aside h2{
     text-align: center;
