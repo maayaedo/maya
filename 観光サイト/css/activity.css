@@ -334,7 +334,7 @@ font-size: 18px;
 
 /* ---- ここからコンテンツ辰の島について ---- */
 .top-content{
-  background: url("../images/魚アイコン\(単色02\).png"),url("../images/魚アイコン(単色).png");
+  background: url("https://github.com/maayaedo/portfolio/blob/main/%E8%A6%B3%E5%85%89%E3%82%B5%E3%82%A4%E3%83%88/images/%E9%AD%9A%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3(%E5%8D%98%E8%89%B202).png?raw=true"),url("https://github.com/maayaedo/portfolio/blob/main/%E8%A6%B3%E5%85%89%E3%82%B5%E3%82%A4%E3%83%88/images/%E9%AD%9A%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3(%E5%8D%98%E8%89%B2).png?raw=true");
   background-repeat: no-repeat;
   background-size:190px 90px,40px 20px;
   background-position:20% 10%,90% 10%;
@@ -343,7 +343,7 @@ font-size: 18px;
 }
 @media screen and (max-width: 680px) {
 .top-content{
-background: url("../images/魚アイコン\(単色02\).png"),url("../images/魚アイコン(単色).png");
+background: url("https://github.com/maayaedo/portfolio/blob/main/%E8%A6%B3%E5%85%89%E3%82%B5%E3%82%A4%E3%83%88/images/%E9%AD%9A%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3(%E5%8D%98%E8%89%B202).png?raw=true"),url("https://github.com/maayaedo/portfolio/blob/main/%E8%A6%B3%E5%85%89%E3%82%B5%E3%82%A4%E3%83%88/images/%E9%AD%9A%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3(%E5%8D%98%E8%89%B2).png?raw=true");
 background-repeat: no-repeat;
 background-size:150px 70px,40px 20px;
 background-position:8% 52%,80% 67%;
@@ -448,7 +448,7 @@ background-blend-mode:lighten;
 
 /* ---- ここからコンテンツイルカ公園について ---- */
 .middle-content{
-  background: url("../images/魚アイコン\(単色02\).png"),url("../images/魚アイコン(単色).png");
+  background: url("https://github.com/maayaedo/portfolio/blob/main/%E8%A6%B3%E5%85%89%E3%82%B5%E3%82%A4%E3%83%88/images/%E9%AD%9A%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3(%E5%8D%98%E8%89%B202).png?raw=true"),url("https://github.com/maayaedo/portfolio/blob/main/%E8%A6%B3%E5%85%89%E3%82%B5%E3%82%A4%E3%83%88/images/%E9%AD%9A%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3(%E5%8D%98%E8%89%B2).png?raw=true");
   background-repeat: no-repeat;
   background-size:190px 90px,40px 20px;
   background-position:20% 10%,90% 10%;
@@ -457,7 +457,7 @@ background-blend-mode:lighten;
 }
 @media screen and (max-width: 680px) {
 .middle-content{
-background: url("../images/魚アイコン\(単色02\).png"),url("../images/魚アイコン(単色).png");
+background: url("https://github.com/maayaedo/portfolio/blob/main/%E8%A6%B3%E5%85%89%E3%82%B5%E3%82%A4%E3%83%88/images/%E9%AD%9A%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3(%E5%8D%98%E8%89%B202).png?raw=true"),url("https://github.com/maayaedo/portfolio/blob/main/%E8%A6%B3%E5%85%89%E3%82%B5%E3%82%A4%E3%83%88/images/%E9%AD%9A%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3(%E5%8D%98%E8%89%B2).png?raw=true");
 background-repeat: no-repeat;
 background-size:150px 70px,40px 20px;
 background-position:10% 7%,84% 30%;
@@ -588,7 +588,7 @@ position: absolute;
 bottom: 0;
 left:0;
 width: 100%;
-background: url("../images/魚アイコン\(単色02\).png");
+background: url("https://github.com/maayaedo/portfolio/blob/main/%E8%A6%B3%E5%85%89%E3%82%B5%E3%82%A4%E3%83%88/images/%E9%AD%9A%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3(%E5%8D%98%E8%89%B202).png?raw=true");
 background-repeat: no-repeat;
 background-size: 25%;
 background-position:2% 164px;
@@ -600,7 +600,7 @@ footer{
 width: 100%;
 height: 90px;
 background: #acdeff;
-background-image: url("../images/魚アイコン\(単色\).png"),url("../images/魚アイコン\(単色\).png");
+background-image: url("https://github.com/maayaedo/portfolio/blob/main/%E8%A6%B3%E5%85%89%E3%82%B5%E3%82%A4%E3%83%88/images/%E9%AD%9A%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3(%E5%8D%98%E8%89%B2).png?raw=true"),url("https://github.com/maayaedo/portfolio/blob/main/%E8%A6%B3%E5%85%89%E3%82%B5%E3%82%A4%E3%83%88/images/%E9%AD%9A%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3(%E5%8D%98%E8%89%B2).png?raw=true");
 background-repeat: no-repeat;
 background-size: 25%,5%,3%,6%;
 background-position:88% 185px,62% 178px;
