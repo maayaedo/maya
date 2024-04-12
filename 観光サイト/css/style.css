@@ -763,7 +763,7 @@ aside section {
 }
 @media screen and (max-width: 680px) {
 .sns{
-  margin-bottom: 150px;
+  margin-bottom: 80px;
 }
 }
 
@@ -807,7 +807,6 @@ aside section {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    position: relative;
 } 
 
 
