@@ -686,13 +686,13 @@ button {
     display: inline-block;
     font-size: 18px;
     width: 30%;
-    margin: 10% 35% 30%;
+    margin: 10% 35% 10%;
     cursor: pointer;
 }
 @media screen and (max-width: 680px) {
 button{
   width: 60%;
-  margin: 10% 20% 50%;
+  margin: 10% 20% 15%;
 }
 }
 button:hover {
@@ -703,17 +703,90 @@ button:hover {
 
 /* footer */
 footer{
-width: 100%;
-height: 90px;
-background: #acdeff;
-padding: 30px 0 70px;
+	width: 100%;
+	height: auto;
+  font-family: serif;
+	background: #373737;
+  	padding: 50px 0 70px;
+    margin: 3em auto 0;
+}
+@media screen and (max-width: 680px) {
+  footer{
+  text-align: center;
+  margin: 2em auto 0;
+  }
+}
+.footer-menu{
+  display: flex;
+  margin:3% 5% 5%;
+}
+@media screen and (max-width: 680px) {
+.footer-menu{
+  margin:3% 5% 3%;
+  text-align: left;
+}
+}
+.footer-menu01,.footer-menu02,.footer-menu03{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.footer-menu01 li,.footer-menu02 li,.footer-menu03 li{
+  padding: 10px 50px 10px ;
+}
+@media screen and (max-width: 680px) {
+.footer-menu01 li,.footer-menu02 li,.footer-menu03 li{
+  padding: 10px 10px 0 10px;
+}
+}
+.footer-menu01 li a,.footer-menu02 li a,.footer-menu03 li a{
+  color: #fdffec;
+  font-size: 20px;
+}
+@media screen and (max-width: 680px) {
+.footer-menu01 li a,.footer-menu02 li a,.footer-menu03 li a{
+  font-size: 18px;
+}
+}
+/* --- ここからsnsコンテンツ --- */
+.sns{
+  margin:0 auto 90px;
+}
+@media screen and (max-width: 680px) {
+.sns{
+  margin: 50px auto;
+}
 }
 
-
+.sns ul {
+  list-style-type: none;
+  padding: 40px 20px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sns ul li a{
+  display:block;
+  padding: 0 30px; 
+}
+@media screen and (max-width: 680px) {
+.sns ul li a{
+  padding: 0 40px; 
+}
+}
+.sns ul li a:hover{
+  opacity: 0.7;
+} 
+/* --- ここまでsnsコンテンツ --- */
 footer p{
-font-family: 小塚ゴシック,MSゴシック,ゴシック,gothic;
-font-size: 16px;
-  line-height: 2em;
-  color: #fdffec;
-text-align: center;
+	font-family: serif;
+	font-size: 20px;
+    line-height: 2em;
+    color: #fdffec;
+	text-align: center;
+}
+@media screen and (max-width: 680px) {
+footer p{
+	font-size: 18px;
+}
 }
